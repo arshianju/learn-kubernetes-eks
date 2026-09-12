@@ -21,3 +21,12 @@ spec:
     #env:	List of environment variables to set inside the container
     #- name: URL	Variable name = URL
   #value: google.com	Variable value = google.com
+
+  #  docker run -it --rm redhat/ubi9 env-- it will remove the image after executing
+ # PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+  # HOSTNAME=79d4b5541e24
+  #  TERM=xterm
+  #  URL=google.com
+  #   container=oci
+  # HOME=/root
+  #it will create env variables, sending env variable is container feature not pod feature
